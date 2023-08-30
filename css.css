@@ -9,14 +9,14 @@ header{
 }
 
 section{
-    overflow: hidden;
+    display: flex;
+    /*flex-direction: column-reverse;*/
     background-color: green;
 }
 
 nav{
     width: 25%;
     background-color: coral;
-    float: left;
 }
 
 footer{
@@ -27,12 +27,10 @@ footer{
 article{
     height: 240px;
     width: 75%;
-    float: left;
     background-color: beige;
 }
 
-#container {
-    
+#container {    
     margin: 0 auto;
     background-color: orange;
     width: 1200px;
